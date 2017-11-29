@@ -1,4 +1,5 @@
 <!--pages/post/post.wxml-->
+<import src="post-item/post-item-template.wxml"/>
 <view>
   <swiper indicator-dots="true" indicator-color="rgba(255,255,255,.7)" indicator-active-color="rgba(255,255,255,1)" autoplay="true" circular="true">
     <swiper-item>
@@ -13,23 +14,9 @@
   </swiper>
 
     <block wx:for="{{post_key}}" wx:for-item="item" wx:for-index="idx">
-        <view class="post-container">
-           <view class="post-author-date">
-               <image src="{{item.avatar}}" class="post-author"></image>
-               <text class="post-date">{{item.date}}+{{idx}}</text>
-           </view>
-           <text class="post-title">{{item.title}}</text>
-           <image src="{{item.imgSrc}}" class="post-image"></image>
-           <text class="post-content">
-              {{item.content}}
-           </text>
-           <view class="post-like">
-                <image src="../../images/icon/chat.png" class="post-like-image"></image>
-                <text class="post-like-font">{{item.collection}}</text>
-                <image src="../../images/icon/view.png" class="post-like-image"></image>
-                <text class="post-like-font">{{item.reading}}</text>
-           </view>
-         </view>
-     </block>
+        <view catchtap="onPostTap" data-postId="{{item.postId}}">
+             <template is="postItem" data="{{...item}}" />
+        </view>
+    </block>
 </view>
 
