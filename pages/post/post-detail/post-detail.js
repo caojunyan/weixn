@@ -35,22 +35,23 @@ Page({
       var postCollected=postsCollected[this.data.currentPostId]
       postCollected=!postCollected;
       postsCollected[this.data.currentPostId]=postCollected;
-      this.showModal();
+      this.showToast(postCollected,postsCollected);
 
   },
   showModal: function (postCollected,postsCollected) {
+    var that=this;
     wx.showModal({
       title:"收藏",
-      content:"是否收藏该文章",
+      content:postCollected?"收藏该文章":"取消收藏该文章",
       showCancel:'true',
-      cancelText:"不收藏",
+      cancelText:"取消",
       cancelColor:'#333',
-      confirmText:"收藏",
+      confirmText:"确认",
       confirmColor:"#405f80",
       success: function (res) {
         if(res.confirm){
           wx.setStorageSync('posts_collected',postsCollected);
-          this.setData({
+          that.setData({
             collected:postCollected
           });
         }
@@ -58,14 +59,35 @@ Page({
     })
   },
   showToast: function (postCollected,postsCollected) {
+      var that=this;
     wx.setStorageSync('posts_collected',postsCollected);
-    this.setData({
+    that.setData({
       collected:postCollected
     });
     wx.showToast({
        title:postCollected?"收藏成功":"取消成功",
        duration:1000,
-       icon:'success',
+       icon:'success'
     });
-  }
+  },
+    onShowTap:function (event) {
+        var itemList=[
+            "分享到微信好友",
+            "分享到朋友圈",
+            "分享到QQ",
+            "分享到微博"
+        ];
+        wx.showActionSheet({
+            itemList:itemList,
+            itemColor:"#405f80",
+            success:function (res) {
+                // res.cancel
+                // res.tabIndex
+                wx.showModal({
+                    title:"用户"+itemList[res.tabIndex],
+                    content:res.cancel+"现在无法实现分享功能"
+                });
+            }
+        })
+    }
 });
