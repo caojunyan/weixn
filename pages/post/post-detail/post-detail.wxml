@@ -1,11 +1,11 @@
 <!--pages/post-detail/post-detail.wxml-->
 <view class="container">
-    <image src="{{postData.headImgSrc}}" class="head-image"></image>
-    <image src="/images/music/music-start.png" class="audio"></image>
+    <image src="{{isPlayingMusic?postData.music.coverImg:postData.headImgSrc}}" class="head-image"></image>
+    <image catchtap="onMusicTap" src="{{isPlayingMusic?'/images/music/music-stop.png':'/images/music/music-start.png'}}" class="audio"></image>
     <view class="author-date">
         <image src="{{postData.avatar}}" class="avatar"></image>
         <text class="author">{{postData.author}}</text>
-        <text class="const-text">發表于</text>
+        <text class="const-text">发表于</text>
         <text class="date">{{postData.dateTime}}</text>
     </view>
     <text class="title">{{postData.title}}</text>

@@ -3,7 +3,7 @@ Page({
        /* wx.navigateTo({
             url:"../post/post"
         });*/
-        wx.redirectTo({
+        wx.switchTab({
             url:"../post/post"
         });
     },
@@ -11,6 +11,6 @@ Page({
         console.log("unload")
     },
     onHide: function () {
-        console.log("onHide")
+
     }
 });

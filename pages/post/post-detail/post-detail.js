@@ -1,36 +1,55 @@
 // pages/post-detail/post-detail.js
 var postsData=require('../../../data/posts-data.js');
+var app=getApp();
 Page({
-  data:{
-
+    data:{
+      isPlayingMusic:false
   },
-  onLoad:function(option){
-    // 页面初始化 option为页面跳转所带来的参数
-    var postId=option.id;
-    this.data.currentPostId=postId;
-   /* this.setData({
-      currentPostId:postId
-    })*/
-    var postData=postsData.postList[postId];
-    /*this.data.postData=postData;*/
-    this.setData({
-      postData:postData
-    });
+    onLoad:function(option){
+        // 页面初始化 option为页面跳转所带来的参数
+        var postId=option.id;
+        this.data.currentPostId=postId;
+        var postData=postsData.postList[postId];
+        this.setData({
+          postData:postData
+        });
+        var postsCollected=wx.getStorageSync('posts_collected');
+        if(postsCollected){
+          var postCollected=postsCollected[postId];
+          this.setData({
+            collected:postCollected
+          });
+        }else{
+          var postsCollected={};
+          postsCollected[postId]=false;
+          wx.setStorageSync('posts_collected',postsCollected);
+        }
+        if(app.globalData.g_isPlayingMusic && app.g_currentMusicPostId===postId){
+              this.setData({
+                  isPlayingMusic:true
+              });
+        }else{
 
-
-    var postsCollected=wx.getStorageSync('posts_collected');
-    if(postsCollected){
-      var postCollected=postsCollected[postId];
-      this.setData({
-        collected:postCollected
-      })
-    }else{
-      var postsCollected={};
-      postsCollected[postId]=false;
-      wx.setStorageSync('posts_collected',postsCollected);
-    }
+        }
+          this.setMusicMonitor();
   },
-  onCollectionTap:function (event) {
+    setMusicMonitor: function () {
+      var that=this;
+      wx.onBackgroundAudioPlay(function () {
+          that.setData({
+              isPlayingMusic:true
+          });
+          app.globalData.g_isPlayingMusic=true;
+          app.globalData.g_currentMusicPostId=that.data.currentPostId;
+      });
+      wx.onBackgroundAudioPause(function () {
+          that.setData({
+              isPlayingMusic:false
+          });
+          app.globalData.g_isPlayingMusic=false;
+      });
+  },
+    onCollectionTap:function (event) {
       var postsCollected=wx.getStorageSync('posts_collected');
       var postCollected=postsCollected[this.data.currentPostId]
       postCollected=!postCollected;
@@ -38,27 +57,27 @@ Page({
       this.showToast(postCollected,postsCollected);
 
   },
-  showModal: function (postCollected,postsCollected) {
+    showModal: function (postCollected,postsCollected) {
     var that=this;
     wx.showModal({
-      title:"收藏",
-      content:postCollected?"收藏该文章":"取消收藏该文章",
-      showCancel:'true',
-      cancelText:"取消",
-      cancelColor:'#333',
-      confirmText:"确认",
-      confirmColor:"#405f80",
-      success: function (res) {
-        if(res.confirm){
-          wx.setStorageSync('posts_collected',postsCollected);
-          that.setData({
-            collected:postCollected
-          });
-        }
-      }
-    })
+          title:"收藏",
+          content:postCollected?"收藏该文章":"取消收藏该文章",
+          showCancel:'true',
+          cancelText:"取消",
+          cancelColor:'#333',
+          confirmText:"确认",
+          confirmColor:"#405f80",
+          success: function (res) {
+            if(res.confirm){
+              wx.setStorageSync('posts_collected',postsCollected);
+              that.setData({
+                collected:postCollected
+              });
+            }
+          }
+        })
   },
-  showToast: function (postCollected,postsCollected) {
+    showToast: function (postCollected,postsCollected) {
       var that=this;
     wx.setStorageSync('posts_collected',postsCollected);
     that.setData({
@@ -85,10 +104,30 @@ Page({
                 // res.tabIndex
                 wx.showModal({
                     title:"用户"+itemList[res.tabIndex],
-                    content:res.cancel+"test"
+                    content:res.cancel+"现在无法实现分享功能"
                 });
             }
         })
+    },
+    onMusicTap: function (event) {
+        var currentPostId=this.data.currentPostId;
+        var postData=postsData.postList[currentPostId];
+        var isPlayingMusic=this.data.isPlayingMusic;
+        if(isPlayingMusic){
+            wx.pauseBackgroundAudio();
+            this.setData({
+                isPlayingMusic:false
+            });
+        }else{
+            wx.playBackgroundAudio({
+                dataUrl:postData.music.url,
+                title:postData.music.title,
+                coverImgUrl:postData.music.coverImgUrl
+            });
+            this.setData({
+                isPlayingMusic:true
+            });
+        }
     }
 });
 
