@@ -85,12 +85,11 @@ Page({
                 // res.tabIndex
                 wx.showModal({
                     title:"用户"+itemList[res.tabIndex],
-                    content:res.cancel+"现在无法实现分享功能"
+                    content:res.cancel+"test"
                 });
             }
         })
     }
 });
 
-just a test
 
