@@ -11,6 +11,25 @@ function convertToStarsArray(stars){
     }
     return array;
 }
-module.exports={
-    convertToStarsArray:convertToStarsArray
+
+function  http (url,moviesDouban) {
+    wx.request({
+        url: url,
+        method:'GET',
+        header:{
+            "Content-Type":"application/xml"
+        },
+        success: function (res) {
+            moviesDouban(res.data);
+        },
+        fail: function (error) {
+        },
+        complete: function () {
+
+        }
+    })
 }
+module.exports={
+    convertToStarsArray:convertToStarsArray,
+    http:http
+};
