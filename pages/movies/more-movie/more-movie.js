@@ -2,7 +2,6 @@
 var app=getApp();
 var util=require('../../../utils/util.js');
 Page({
-
   /**
    * 页面的初始数据
    */
@@ -30,7 +29,7 @@ Page({
       case "即将上映":
         dataUrl=app.globalData.doubanBase+"/v2/movie/coming_soon";
         break;
-      case "豆瓣Top250":
+      case "豆瓣top250":
         dataUrl=app.globalData.doubanBase+"/v2/movie/top250";
         break;
     }
@@ -42,6 +41,15 @@ Page({
   onScrollLower: function (event) {
     var nextUrl=this.data.requestUrl+"?start="+this.data.totalCount+"&count=20";
     util.http(nextUrl,this.processDoubanData);
+    wx.showNavigationBarLoading();
+  },
+  onPullDownRefresh: function (event) {
+    var nextUrl=this.data.requestUrl+"?start=0&count=20";
+    this.data.movies={};
+    this.data.isEmpty={};
+    this.data.totalCount=0;
+    util.http(nextUrl,this.processDoubanData);
+    wx.showNavigationBarLoading();
   },
   processDoubanData: function (moviesDouban) {
     var movies =[];
@@ -71,6 +79,8 @@ Page({
       movies:totalMovies
     });
     this.data.totalCount+=20;
+    wx.hideNavigationBarLoading();
+    wx.stopPullDownRefresh();
   },
 
   /**
@@ -110,7 +120,7 @@ Page({
    * 页面相关事件处理函数--监听用户下拉动作
    */
   onPullDownRefresh: function () {
-  
+
   },
 
   /**

@@ -2,10 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6215ee09-ef80-4f5b-bef7-8b08dfbcb636" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/1.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/1..html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.json" afterPath="$PROJECT_DIR$/app.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/movies/movie-list/movie-list-template.wxml" afterPath="$PROJECT_DIR$/pages/movies/movie-list/movie-list-template.wxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/movies/more-movie/more-movie.js" afterPath="$PROJECT_DIR$/pages/movies/more-movie/more-movie.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/movies/more-movie/more-movie.json" afterPath="$PROJECT_DIR$/pages/movies/more-movie/more-movie.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/movies/movie-grid/movie-grid-template.wxml" afterPath="$PROJECT_DIR$/pages/movies/movie-grid/movie-grid-template.wxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/movies/movie/movie-template.wxml" afterPath="$PROJECT_DIR$/pages/movies/movie/movie-template.wxml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/movies/movies.js" afterPath="$PROJECT_DIR$/pages/movies/movies.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/movies/movies.wxml" afterPath="$PROJECT_DIR$/pages/movies/movies.wxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/movies/movies.wxss" afterPath="$PROJECT_DIR$/pages/movies/movies.wxss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/post/post-detail/post-detail.js" afterPath="$PROJECT_DIR$/pages/post/post-detail/post-detail.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/util.js" afterPath="$PROJECT_DIR$/utils/util.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -29,77 +35,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="movies.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/movies/movies.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="18" column="63" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="63" />
-              <folding>
-                <element signature="e#733#889#0" expanded="false" />
-                <element signature="e#950#1285#0" expanded="false" />
-                <element signature="e#1356#2012#0" expanded="false" />
-                <element signature="e#2074#2082#0" expanded="false" />
-                <element signature="e#2139#2147#0" expanded="false" />
-                <element signature="e#2204#2212#0" expanded="false" />
-                <element signature="e#2271#2279#0" expanded="false" />
-                <element signature="e#2353#2361#0" expanded="false" />
-                <element signature="e#2424#2432#0" expanded="false" />
-                <element signature="e#2495#2503#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="more-movie.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="more-movie.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/movies/more-movie/more-movie.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.0471585">
-              <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+            <state vertical-scroll-proportion="-2.1774194">
+              <caret line="49" column="27" selection-start-line="49" selection-start-column="27" selection-end-line="49" selection-end-column="27" />
               <folding>
-                <element signature="e#2057#2065#0" expanded="false" />
-                <element signature="e#2189#2197#0" expanded="false" />
-                <element signature="e#2271#2279#0" expanded="false" />
-                <element signature="e#2413#2421#0" expanded="false" />
+                <element signature="e#2420#2428#0" expanded="false" />
+                <element signature="e#2552#2560#0" expanded="false" />
+                <element signature="e#2774#2782#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="util.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/utils/util.js">
+      <file leaf-file-name="movie-detail.wxml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pages/movies/movie-detail/movie-detail.wxml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="more-movie.wxml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/movies/more-movie/more-movie.wxml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="1" column="46" selection-start-line="1" selection-start-column="38" selection-end-line="1" selection-end-column="46" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="movie-grid-template.wxss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/movies/movie-grid/movie-grid-template.wxss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="movie-grid-template.wxml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/movies/movie-grid/movie-grid-template.wxml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="15" />
+            <state vertical-scroll-proportion="0.047182176">
+              <caret line="1" column="44" selection-start-line="1" selection-start-column="44" selection-end-line="1" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -133,32 +87,37 @@
         <option value="$PROJECT_DIR$/pages/post/post.json" />
         <option value="$PROJECT_DIR$/pages/post/post-detail/post-detail.wxml" />
         <option value="$PROJECT_DIR$/pages/post/post-item/post-item-template.wxml" />
-        <option value="$PROJECT_DIR$/pages/post/post-detail/post-detail.js" />
         <option value="$PROJECT_DIR$/pages/post/post.wxml" />
         <option value="$PROJECT_DIR$/pages/post/post.js" />
         <option value="$PROJECT_DIR$/pages/index/index.js" />
-        <option value="$PROJECT_DIR$/app.json" />
         <option value="$PROJECT_DIR$/pages/stars/stars.wxml" />
         <option value="$PROJECT_DIR$/pages/movies/stars/stars-template.wxss" />
         <option value="$PROJECT_DIR$/pages/movies/movie/movie-template.wxss" />
         <option value="$PROJECT_DIR$/pages/movies/movie-list/movie-list-template.wxss" />
         <option value="$PROJECT_DIR$/test.html" />
-        <option value="$PROJECT_DIR$/pages/movies/movies.wxss" />
         <option value="$PROJECT_DIR$/pages/movies/movies.json" />
         <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/app.wxss" />
-        <option value="$PROJECT_DIR$/pages/movies/movies.wxml" />
-        <option value="$PROJECT_DIR$/pages/movies/movie/movie-template.wxml" />
         <option value="$PROJECT_DIR$/pages/movies/stars/stars-template.wxml" />
         <option value="$PROJECT_DIR$/pages/movies/movie-list/movie-list-template.wxml" />
-        <option value="$PROJECT_DIR$/pages/movies/movies.js" />
-        <option value="$PROJECT_DIR$/utils/util.js" />
         <option value="$PROJECT_DIR$/pages/movies/more-movie/more-movie.wxml" />
         <option value="$PROJECT_DIR$/pages/movies/more-movie/more-movie.wxss" />
-        <option value="$PROJECT_DIR$/pages/movies/movie-grid/movie-grid-template.wxml" />
         <option value="$PROJECT_DIR$/pages/movies/movie-grid/movie-grid-template.wxss" />
         <option value="$PROJECT_DIR$/1.html" />
+        <option value="$PROJECT_DIR$/pages/movies/more-movie/more-movie.json" />
+        <option value="$PROJECT_DIR$/1..html" />
+        <option value="$PROJECT_DIR$/pages/movies/movies.wxml" />
+        <option value="$PROJECT_DIR$/pages/movies/movies.wxss" />
+        <option value="$PROJECT_DIR$/pages/movies/movie-grid/movie-grid-template.wxml" />
+        <option value="$PROJECT_DIR$/pages/post/post-detail/post-detail.js" />
+        <option value="$PROJECT_DIR$/pages/movies/movie/movie-template.wxml" />
+        <option value="$PROJECT_DIR$/app.json" />
+        <option value="$PROJECT_DIR$/pages/movies/movies.js" />
+        <option value="$PROJECT_DIR$/utils/util.js" />
+        <option value="$PROJECT_DIR$/pages/movies/movie-detail/movie-detail.js" />
+        <option value="$PROJECT_DIR$/pages/movies/movie-detail/movie-detail.wxss" />
         <option value="$PROJECT_DIR$/pages/movies/more-movie/more-movie.js" />
+        <option value="$PROJECT_DIR$/pages/movies/movie-detail/movie-detail.wxml" />
       </list>
     </option>
   </component>
@@ -171,10 +130,10 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="521" />
+    <option name="y" value="269" />
+    <option name="width" value="1377" />
+    <option name="height" value="930" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -282,7 +241,29 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="movie-grid" />
+              <option name="myItemId" value="movie-detail" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="weixn" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="weixn" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="movies" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="movie" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -403,17 +384,17 @@
     <option name="totallyTimeSpent" value="14244000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="521" y="269" width="1377" height="930" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13976793" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13836949" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928944" sideWeight="0.5035318" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928944" sideWeight="0.49646822" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17713787" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17658931" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928944" sideWeight="0.49646822" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -441,72 +422,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="4" />
+      <option name="time" value="6" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pages/post/post-detail/post-detail.wxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="35" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/post/post-detail/post-detail.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#1050#1502#0" expanded="false" />
-            <element signature="e#1541#1823#0" expanded="false" />
-            <element signature="e#1918#2395#0" expanded="false" />
-            <element signature="e#2457#2710#0" expanded="false" />
-            <element signature="e#2743#3245#0" expanded="false" />
-            <element signature="e#3280#3894#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/post/post.wxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/post/post.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="39" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
-          <folding>
-            <element signature="e#257#447#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/post/post-detail/post-detail.wxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="71" selection-start-line="14" selection-start-column="71" selection-end-line="14" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/post/post-detail/post-detail.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="2" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
-          <folding>
-            <element signature="e#1050#1502#0" expanded="false" />
-            <element signature="e#1541#1823#0" expanded="false" />
-            <element signature="e#1918#2395#0" expanded="false" />
-            <element signature="e#2457#2710#0" expanded="false" />
-            <element signature="e#2743#3245#0" expanded="false" />
-            <element signature="e#3280#3894#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/post/post.wxml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -609,28 +529,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/post/post-detail/post-detail.wxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="2" column="32" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/post/post-detail/post-detail.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3327869">
-          <caret line="33" column="26" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="26" />
-          <folding>
-            <element signature="e#1050#1502#0" expanded="false" />
-            <element signature="e#1541#1823#0" expanded="false" />
-            <element signature="e#1918#2395#0" expanded="false" />
-            <element signature="e#2457#2710#0" expanded="false" />
-            <element signature="e#2743#3245#0" expanded="false" />
-            <element signature="e#3280#3894#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/index/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.28037384">
@@ -688,24 +586,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.78147614">
-          <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/post/post.wxml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.352081">
           <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/movies/movies.wxss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.10465116">
-          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -736,50 +620,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/movies/movie/movie-template.wxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.20247468">
-          <caret line="5" column="50" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/movies/movies.wxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3239595">
-          <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/movies/movie-list/movie-list-template.wxml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="7" column="52" selection-start-line="7" selection-start-column="52" selection-end-line="7" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/movies/more-movie/more-movie.wxss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="1" column="49" selection-start-line="1" selection-start-column="49" selection-end-line="1" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4260355">
-          <caret line="7" column="219" selection-start-line="7" selection-start-column="219" selection-end-line="7" selection-end-column="219" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7677725">
-          <caret line="27" column="7" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
           <folding />
         </state>
       </provider>
@@ -792,25 +636,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/utils/util.js">
+    <entry file="file://$PROJECT_DIR$/1..html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+        <state vertical-scroll-proportion="0.04265403">
+          <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/movies/more-movie/more-movie.wxml">
+    <entry file="file://$PROJECT_DIR$/pages/movies/movies.wxml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="1" column="46" selection-start-line="1" selection-start-column="38" selection-end-line="1" selection-end-column="46" />
+        <state vertical-scroll-proportion="0.30136988">
+          <caret line="20" column="55" selection-start-line="20" selection-start-column="55" selection-end-line="20" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/movies/movies.wxss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.09863014">
+          <caret line="1" column="30" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/movies/movie-grid/movie-grid-template.wxss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.690411">
           <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
           <folding />
         </state>
@@ -818,41 +670,166 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/movies/movie-grid/movie-grid-template.wxml">
       <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.19726028">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/post/post-detail/post-detail.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.58715594">
+          <caret line="50" column="30" selection-start-line="50" selection-start-column="30" selection-end-line="50" selection-end-column="30" />
+          <folding>
+            <element signature="e#1116#1317#0" expanded="false" />
+            <element signature="e#1364#1496#0" expanded="false" />
+            <element signature="e#1542#1684#0" expanded="false" />
+            <element signature="e#1729#2011#0" expanded="false" />
+            <element signature="e#2106#2583#0" expanded="false" />
+            <element signature="e#2645#2898#0" expanded="false" />
+            <element signature="e#2931#3433#0" expanded="false" />
+            <element signature="e#3468#4082#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/post/post-detail/post-detail.wxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.047182176">
+          <caret line="2" column="32" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/post/post-detail/post-detail.wxss">
+      <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="15" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/post/post-detail/post-detail.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/movies/more-movie/more-movie.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.10027855">
+          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/movies/more-movie/more-movie.wxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.047182176">
+          <caret line="1" column="46" selection-start-line="1" selection-start-column="38" selection-end-line="1" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/movies/more-movie/more-movie.wxss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.047182176">
+          <caret line="1" column="49" selection-start-line="1" selection-start-column="49" selection-end-line="1" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/movies/movie-detail/movie-detail.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/movies/movie/movie-template.wxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.15041783">
+          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/movies/movies.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="63" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="63" />
+        <state vertical-scroll-proportion="-8.71875">
+          <caret line="36" column="9" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
           <folding>
-            <element signature="e#733#889#0" expanded="false" />
-            <element signature="e#950#1285#0" expanded="false" />
-            <element signature="e#1356#2012#0" expanded="false" />
-            <element signature="e#2074#2082#0" expanded="false" />
-            <element signature="e#2139#2147#0" expanded="false" />
-            <element signature="e#2204#2212#0" expanded="false" />
-            <element signature="e#2271#2279#0" expanded="false" />
-            <element signature="e#2353#2361#0" expanded="false" />
-            <element signature="e#2424#2432#0" expanded="false" />
-            <element signature="e#2495#2503#0" expanded="false" />
+            <element signature="e#308#776#0" expanded="false" />
+            <element signature="e#2265#2921#0" expanded="false" />
+            <element signature="e#2983#2991#0" expanded="false" />
+            <element signature="e#3048#3056#0" expanded="false" />
+            <element signature="e#3113#3121#0" expanded="false" />
+            <element signature="e#3180#3188#0" expanded="false" />
+            <element signature="e#3262#3270#0" expanded="false" />
+            <element signature="e#3333#3341#0" expanded="false" />
+            <element signature="e#3404#3412#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/util.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="47" column="30" selection-start-line="47" selection-start-column="30" selection-end-line="47" selection-end-column="30" />
+          <folding>
+            <element signature="n#!!block;n#convertToStarsArray#0" expanded="false" />
+            <element signature="n#!!block;n#http#0" expanded="false" />
+            <element signature="n#!!block;n#convertToCastString#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/movies/movie-detail/movie-detail.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.7580645">
+          <caret line="50" column="18" selection-start-line="50" selection-start-column="18" selection-end-line="50" selection-end-column="18" />
+          <folding>
+            <element signature="e#230#373#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/movies/movie-detail/movie-detail.wxss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6942149">
+          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/movies/more-movie/more-movie.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.0471585">
-          <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+        <state vertical-scroll-proportion="-2.1774194">
+          <caret line="49" column="27" selection-start-line="49" selection-start-column="27" selection-end-line="49" selection-end-column="27" />
           <folding>
-            <element signature="e#2057#2065#0" expanded="false" />
-            <element signature="e#2189#2197#0" expanded="false" />
-            <element signature="e#2271#2279#0" expanded="false" />
-            <element signature="e#2413#2421#0" expanded="false" />
+            <element signature="e#2420#2428#0" expanded="false" />
+            <element signature="e#2552#2560#0" expanded="false" />
+            <element signature="e#2774#2782#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/movies/movie-detail/movie-detail.wxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.047182176">
+          <caret line="1" column="44" selection-start-line="1" selection-start-column="44" selection-end-line="1" selection-end-column="44" />
+          <folding />
         </state>
       </provider>
     </entry>

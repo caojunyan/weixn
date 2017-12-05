@@ -48,6 +48,12 @@ Page({
           });
           app.globalData.g_isPlayingMusic=false;
       });
+      wx.onBackgroundAudioStop(function () {
+            that.setData({
+                isPlayingMusic:false
+            });
+            app.globalData.g_isPlayingMusic=false;
+        });
   },
     onCollectionTap:function (event) {
       var postsCollected=wx.getStorageSync('posts_collected');
