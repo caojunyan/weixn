@@ -46,12 +46,18 @@ Page({
       casts:util.convertToCastString(data.casts),
       castsInfo:util.convertToCastInfos(data.casts),
       summary:data.summary
-    }
-    console.log(movie)
+    };
     this.setData({
       movie:movie
     })
   },
+    viewMoviePostImg:function (e) {
+      var src=e.currentTarget.dataset.src;
+      wx.previewImage({
+          current:src,
+          urls:[src]
+      })
+    },
 
   /**
    * 生命周期函数--监听页面初次渲染完成
@@ -101,4 +107,4 @@ Page({
   onShareAppMessage: function () {
   
   }
-})
+});
